@@ -1,0 +1,30 @@
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 918px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+
+@media only screen and (min-width: 918px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+}
+
+/** **************end of bigger screen************************ **/
+
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

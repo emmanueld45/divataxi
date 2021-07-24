@@ -1,0 +1,1406 @@
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 918px) {
+  /*** HEADER START ***/
+  header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #082544;
+  }
+
+  header .logo-text {
+    color: white;
+    font-size: 22px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: #ff6558;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  header .bars {
+    position: relative;
+    float: right;
+    color: white;
+    font-size: 20px;
+    top: 15px;
+    right: 10px;
+  }
+
+  header .sidebar-open-btn {
+    position: relative;
+    float: right;
+    color: white;
+    font-size: 20px;
+    top: 20px;
+    right: 15px;
+    width: 23px;
+  }
+
+  header .sidebar-open-btn .bar {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 50px;
+    margin-bottom: 4px;
+  }
+  header .sidebar-close-btn {
+    position: relative;
+    float: right;
+    color: white;
+    font-size: 20px;
+    top: 15px;
+    right: 20px;
+    display: none;
+  }
+
+  header .sidebar-close-btn .bar1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+    border-radius: 50px;
+  }
+  header .sidebar-close-btn .bar2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    transform: rotate(-45deg);
+    border-radius: 50px;
+  }
+
+  header nav {
+    position: relative;
+    width: 100%;
+    background-color: #082544f5;
+    /* background-color: green; */
+    top: 10px;
+    z-index: 1100;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: none;
+  }
+
+  header nav ul {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul li {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    margin-left: -20px;
+  }
+
+  header nav ul li a {
+    color: white;
+    font-size: 16px;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+
+  header nav ul li a:hover {
+    color: #ff6558;
+    text-decoration: none;
+  }
+  /*** HEADER END ****/
+
+  /*** HERO START ***/
+  .hero {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #fbf8f8;
+    display: flex;
+    flex-flow: row wrap-reverse;
+  }
+
+  .hero .left-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .hero .left-section .text-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    background-color: ;
+    top: 30px;
+  }
+
+  .hero .left-section .text-container .text1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #082544;
+  }
+
+  .hero .left-section .text-container .text2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #082544;
+  }
+
+  .hero .left-section .text-container .text3 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff6558;
+  }
+
+  .hero .left-section .text-container .btns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .hero .left-section .text-container .btns-container .playstore {
+    position: relative;
+    width: 130px;
+  }
+
+  .hero .left-section .text-container .btns-container .apple {
+    position: relative;
+    width: 130px;
+    top: 7px;
+  }
+
+  .hero .right-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .hero .right-section .car {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    height: auto;
+  }
+  /*** HERO END ***/
+
+  /*** HOW IT WORKS START ***/
+  .how-it-works {
+    position: relative;
+    width: 100%;
+  }
+
+  .how-it-works .section-title {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid #ff6558;
+
+    padding: 10px;
+    padding-top: 20px;
+    color: #082544;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .how-it-works .box-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin-top: 70px;
+  }
+
+  .how-it-works .box-container .row1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+  }
+  .how-it-works .box-container .row1 .box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .how-it-works .box-container .row1 .box .number-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+
+  .how-it-works .box-container .row1 .box .number-container .number {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6558;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* .how-it-works .box-container .row1 .box .number-container.right {
+    justify-content: flex-end;
+  } */
+
+  .how-it-works .box-container .row1 .box .number-container .number.right {
+    background-color: #ffe8e6;
+    color: #ff6558;
+  }
+  .how-it-works .box-container .row1 .box .box-title {
+    position: relative;
+
+    color: #082544;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  /* .how-it-works .box-container .row1 .box .box-title.right {
+    text-align: right;
+  } */
+  .how-it-works .box-container .row1 .box .box-content {
+    position: relative;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* .how-it-works .box-container .row1 .box .box-content.right {
+    text-align: right;
+  } */
+
+  .how-it-works .box-container .row1 .box.box3 {
+    /* margin-top: 100px; */
+  }
+  .how-it-works .box-container .row1 .box.box4 {
+    /* margin-top: 100px; */
+  }
+
+  .how-it-works .box-container .row2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .how-it-works .box-container .row2 .circle {
+    position: relative;
+    width: 70%;
+
+    margin-top: -25%;
+  }
+  /*** HOW IT WORKS END ***/
+
+  /*** BANNER START ***/
+  .banner-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .banner-section .image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    object-fit: cover;
+  }
+  .banner-section .div-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .banner-section .main-overlay {
+    position: relative;
+    width: 100%;
+    padding: 70px 20px;
+    z-index: 200;
+  }
+
+  .banner-section .main-overlay .section-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+  .banner-section .main-overlay .btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .banner-section .main-overlay .btn-container .become-a-driver-btn {
+    position: relative;
+    padding: 7px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+  }
+  /*** BANNER  SECTION END ***/
+
+  /*** WHY SECTION START ***/
+  .why-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .why-section .left-section {
+    position: relative;
+    width: 100%;
+    background-color: #eee;
+  }
+  .why-section .right-section {
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .why-section .right-section .section-title {
+    position: relative;
+    width: 100%;
+    color: #082544;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  .why-section .right-section .box {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 40px;
+  }
+
+  .why-section .right-section .box .row1 {
+    position: relative;
+    width: 30%;
+  }
+
+  .why-section .right-section .box .row1 img {
+    width: 50px;
+    height: auto;
+  }
+
+  .why-section .right-section .box .row2 {
+    position: relative;
+    width: 70%;
+  }
+
+  .why-section .right-section .box .row2 .row-title {
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    color: #ff6558;
+    font-weight: 600;
+  }
+
+  .why-section .right-section .box .row2 .row-content {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+  }
+  /*** WHY SECTION END ***/
+
+  /*** FOOTER START ***/
+  footer {
+    position: relative;
+    width: 100%;
+
+    background-color: #082544;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 30px 20px;
+  }
+
+  footer .box {
+    width: 100%;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  footer .box .title {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  footer .box .content {
+    position: relative;
+    width: 70%;
+    color: white;
+    font-size: 14px;
+  }
+
+  footer .box .btns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  footer .box .btns-container .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  footer .box .btns-container .playstore {
+    position: relative;
+    width: 130px;
+    height: auto;
+    margin-right: 10px;
+    top: -20px;
+    display: block;
+  }
+
+  footer .box .btns-container .apple {
+    position: relative;
+    width: 130px;
+    height: auto;
+    top: -10px;
+    display: block;
+  }
+  /*** FOOTER END ***/
+
+  /*** BECOME A DRIVER START ***/
+  .become-a-driver {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-flow: row wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .become-a-driver .left-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #082544;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: none;
+  }
+
+  .become-a-driver .left-section .title {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .become-a-driver .left-section .sub-title {
+    position: relative;
+    width: 100%;
+
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .become-a-driver .left-section .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .become-a-driver .left-section .image-container img {
+    position: relative;
+    width: 80%;
+  }
+  .become-a-driver .right-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #e4e4e4;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .become-a-driver .right-section form {
+    position: relative;
+    width: 95%;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #c4c4c4;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+  }
+
+  .become-a-driver .right-section form .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form .sub-title {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form .heading {
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form label {
+    position: relative;
+    font-size: 14px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form .field {
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    color: #f8f8f8;
+    border: 1px solid rgb(230, 228, 228);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .become-a-driver .right-section form .btns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .become-a-driver .right-section form .btns-container .form-btn {
+    position: relative;
+    width: 130px;
+    padding: 10px;
+    background-color: #082544;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    border: none;
+  }
+
+  .become-a-driver .right-section .thank-you {
+    position: relative;
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #c4c4c4;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+  }
+
+  .become-a-driver .right-section .thank-you .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .become-a-driver .right-section .thank-you .image-container img {
+    position: relative;
+    width: 90%;
+    height: auto;
+  }
+
+  .become-a-driver .right-section .thank-you .message {
+    position: relative;
+    width: 100%;
+    color: #b8b8b8;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .become-a-driver .right-section .thank-you .btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .become-a-driver .right-section .thank-you .btn-container .thank-you-btn {
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    background-color: #082544;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+  }
+  /*** BECOME A DRIVER END ***/
+  /*** SCROLLBAR START ***/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #082544;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #082544;
+    cursor: pointer;
+  }
+  /*** SCROLLBAR END ***/
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+
+@media only screen and (min-width: 918px) {
+  /*** HEADER START ***/
+  header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #082544;
+  }
+
+  header .logo-text {
+    color: white;
+    font-size: 25px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: #ff6558;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 30px;
+  }
+
+  header nav {
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 50px;
+  }
+
+  header nav ul {
+    position: relative;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+  }
+
+  header nav ul li a {
+    color: white;
+    font-size: 14px;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+
+  header nav ul li a:hover {
+    color: #ff6558;
+    text-decoration: none;
+  }
+  /*** HEADER END ****/
+
+  /*** HERO START ***/
+  .hero {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #fbf8f8;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .hero .left-section {
+    position: relative;
+    width: 50%;
+  }
+
+  .hero .left-section .text-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    background-color: ;
+    top: 70px;
+  }
+
+  .hero .left-section .text-container .text1 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #082544;
+  }
+
+  .hero .left-section .text-container .text2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    color: #082544;
+  }
+
+  .hero .left-section .text-container .text3 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ff6558;
+  }
+
+  .hero .left-section .text-container .btns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  .hero .left-section .text-container .btns-container .playstore {
+    position: relative;
+    width: 150px;
+  }
+
+  .hero .left-section .text-container .btns-container .apple {
+    position: relative;
+    width: 150px;
+    top: 10px;
+  }
+
+  .hero .right-section {
+    position: relative;
+    width: 50%;
+  }
+
+  .hero .right-section .car {
+    position: relative;
+    left: -70px;
+    top: 20px;
+    width: 100%;
+    height: auto;
+  }
+  /*** HERO END ***/
+
+  /*** HOW IT WORKS START ***/
+  .how-it-works {
+    position: relative;
+    width: 100%;
+  }
+
+  .how-it-works .section-title {
+    position: relative;
+    width: 40%;
+    margin: auto;
+    border-bottom: 2px solid #ff6558;
+
+    padding: 10px;
+    padding-top: 20px;
+    color: #082544;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .how-it-works .box-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 70px;
+  }
+
+  .how-it-works .box-container .row1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .how-it-works .box-container .row1 .box {
+    position: relative;
+    width: 50%;
+  }
+
+  .how-it-works .box-container .row1 .box .number-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+
+  .how-it-works .box-container .row1 .box .number-container .number {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6558;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .how-it-works .box-container .row1 .box .number-container.right {
+    justify-content: flex-end;
+  }
+
+  .how-it-works .box-container .row1 .box .number-container .number.right {
+    background-color: #ffe8e6;
+    color: #ff6558;
+  }
+  .how-it-works .box-container .row1 .box .box-title {
+    position: relative;
+
+    color: #082544;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .how-it-works .box-container .row1 .box .box-title.right {
+    text-align: right;
+  }
+  .how-it-works .box-container .row1 .box .box-content {
+    position: relative;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .how-it-works .box-container .row1 .box .box-content.right {
+    text-align: right;
+  }
+
+  .how-it-works .box-container .row1 .box.box3 {
+    margin-top: 100px;
+  }
+  .how-it-works .box-container .row1 .box.box4 {
+    margin-top: 100px;
+  }
+
+  /* .how-it-works .box-container .row1 .box.box5 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  } */
+
+  /* .how-it-works .box-container .row1 .box.box5 .circle {
+    position: relative;
+    width: 40%;
+    margin-top: -35%;
+  } */
+
+  .how-it-works .box-container .row2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .how-it-works .box-container .row2 .circle {
+    position: relative;
+    width: 40%;
+
+    margin-top: -35%;
+  }
+  /*** HOW IT WORKS END ***/
+
+  /*** BANNER START ***/
+  .banner-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .banner-section .image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    object-fit: cover;
+  }
+  .banner-section .div-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .banner-section .main-overlay {
+    position: relative;
+    width: 100%;
+    padding: 70px 20px;
+    z-index: 200;
+  }
+
+  .banner-section .main-overlay .section-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+  .banner-section .main-overlay .btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .banner-section .main-overlay .btn-container .become-a-driver-btn {
+    position: relative;
+    padding: 7px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+  }
+  /*** BANNER  SECTION END ***/
+
+  /*** WHY SECTION START ***/
+  .why-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .why-section .left-section {
+    position: relative;
+    width: 60%;
+    background-color: #eee;
+  }
+  .why-section .right-section {
+    position: relative;
+    width: 40%;
+    padding-left: 20px;
+  }
+
+  .why-section .right-section .section-title {
+    position: relative;
+    width: 100%;
+    color: #082544;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  .why-section .right-section .box {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 60px;
+  }
+
+  .why-section .right-section .box .row1 {
+    position: relative;
+    width: 20%;
+  }
+
+  .why-section .right-section .box .row1 img {
+    width: 50px;
+    height: auto;
+  }
+
+  .why-section .right-section .box .row2 {
+    position: relative;
+    width: 80%;
+  }
+
+  .why-section .right-section .box .row2 .row-title {
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    color: #ff6558;
+    font-weight: 600;
+  }
+
+  .why-section .right-section .box .row2 .row-content {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+  }
+  /*** WHY SECTION END ***/
+
+  /*** FOOTER START ***/
+  footer {
+    position: relative;
+    width: 100%;
+
+    background-color: #082544;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 60px 40px;
+  }
+
+  footer .box {
+    width: 30%;
+    position: relative;
+    padding-left: 30px;
+  }
+
+  footer .box .title {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  footer .box .content {
+    position: relative;
+    width: 70%;
+    color: white;
+    font-size: 14px;
+  }
+
+  footer .box .btns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  footer .box .btns-container .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  footer .box .btns-container .playstore {
+    position: relative;
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    top: -20px;
+  }
+
+  footer .box .btns-container .apple {
+    position: relative;
+    width: 150px;
+    height: auto;
+    top: -10px;
+  }
+  /*** FOOTER END ***/
+
+  /*** BECOME A DRIVER START ***/
+  .become-a-driver {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .become-a-driver .left-section {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #082544;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .become-a-driver .left-section .title {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .become-a-driver .left-section .sub-title {
+    position: relative;
+    width: 100%;
+
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .become-a-driver .left-section .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .become-a-driver .left-section .image-container img {
+    position: relative;
+    width: 80%;
+  }
+  .become-a-driver .right-section {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #e4e4e4;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .become-a-driver .right-section form {
+    position: relative;
+    width: 80%;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #c4c4c4;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 50px;
+  }
+
+  .become-a-driver .right-section form .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form .sub-title {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form .heading {
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form label {
+    position: relative;
+    font-size: 14px;
+    color: #082544;
+  }
+
+  .become-a-driver .right-section form .field {
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    color: #f8f8f8;
+    border: 1px solid rgb(230, 228, 228);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .become-a-driver .right-section form .btns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .become-a-driver .right-section form .btns-container .form-btn {
+    position: relative;
+    width: 130px;
+    padding: 10px;
+    background-color: #082544;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    border: none;
+  }
+
+  .become-a-driver .right-section .thank-you {
+    position: relative;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #c4c4c4;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 50px;
+  }
+
+  .become-a-driver .right-section .thank-you .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .become-a-driver .right-section .thank-you .image-container img {
+    position: relative;
+    width: 80%;
+    height: auto;
+  }
+
+  .become-a-driver .right-section .thank-you .message {
+    position: relative;
+    width: 100%;
+    color: #b8b8b8;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .become-a-driver .right-section .thank-you .btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .become-a-driver .right-section .thank-you .btn-container .thank-you-btn {
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    background-color: #082544;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  /*** BECOME A DRIVER END ***/
+  /*** SCROLLBAR START ***/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #082544;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #082544;
+    cursor: pointer;
+  }
+  /*** SCROLLBAR END ***/
+}
+
+/** **************end of bigger screen************************ **/
+
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
